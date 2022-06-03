@@ -1,11 +1,14 @@
-document.getElementById("demo").onmouseover = function () { mouseOver() };
-document.getElementById("demo").onmouseout = function () { mouseOut() };
+
+document.getElementById("demo1").onmouseover = () => { mouseOver() };
+document.getElementById("demo1").onmouseout = () => { mouseOut() };
 
 function mouseOver() {
-    document.getElementById("demo").style.display = "none";
+    document.getElementById("demo2").style.display = "none";
+    document.getElementById("demo3").style.display = "none";
 }
 
 function mouseOut() {
-    document.getElementById("demo").style.display = "block";
+    document.getElementById("demo2").style.display = "inline-block";
+    document.getElementById("demo3").style.display = "inline-block";
 }
 
