@@ -1,0 +1,16 @@
+body {
+    background: aquamarine;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    background: red;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.container {
+    margin-top: 250px;
+    margin-left: 500px;
+}
